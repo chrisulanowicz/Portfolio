@@ -2,35 +2,67 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: "verdana", sans-serif;
-	color: #2f4f4f;
+	text-align: center;
+	overflow-x: hidden;
 }
-#wrapper {
-	width: 960px;
+html {
+	background: url(images/gears.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+#container {
+	width: 100%;
 	margin: 0px auto;
-	padding: 20px;
-	background: rgba(205, 197, 191, .8);
+	color: white;
+}
+p {
+	width: 60%;
+	margin: 0px auto;
+}
+span.bold {
+	font-weight: bold;
+}
+span.italic {
+	font-style: italic;
 }
 header {
-	height: 220px;
+	display: inline-block;
+	padding: 1em;
+	margin: 20px auto;
 }
-	img, h1, h2 {
-	
+	header h1, header h2 {
 	}
-	h1 {
-		padding-right: 200px;
-		vertical-align: top;
-		display: inline-block;
+	header img {
+		border-radius: 25%;
+		margin: 5px auto;
+		display: block;
 	}
-	h2 {
-		margin: -150px 0px 0px 200px;
+table {
+	margin: 5px auto;
+}
+	td {
+		padding: 10px;
+		text-align: left;
 	}
 #main_content {
-	margin-top: 20px;
 }
 	p {
 		margin-top: 10px;
 	}
-	h3 {
+	#main_content h2 {
+		margin: 20px -9999rem;
+		padding: 1rem 9999rem;
+		background: black;
+		color: white;
+	}
+	#main_content h3 {
+		background: rgba(204,122,0,.6);
+		padding: 7px;
+		width: 70%;
+		margin: 10px auto;
+		border-radius: 6px;
+	}
+	#main_content img {
+		border-radius: 10px;
 		margin-top: 20px;
 	}
 	form {
@@ -44,6 +76,10 @@ header {
 		font-family: "gothic", sans-serif;
 		font-size: 1.125em;
 	}
+.project {
+	margin: 2em auto;
+}
+	
 #links {
 	margin-top: 40px;
 }
@@ -53,4 +89,11 @@ header {
 	}
 	li {
 		margin: 10px 0px 0px 50px;
+		display: inline-block;
+	}
+	#links img {
+		width: 5em;
+		height: 5em;
+		background-color: white;
+		border-radius: 50%;
 	}

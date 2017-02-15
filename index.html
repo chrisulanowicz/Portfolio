@@ -2,35 +2,124 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<meta name="description" content="A portfolio containing various programming projects by Chris Ulanowicz along with some basic information" />
+	<meta name="author" content="Christopher Ulanowicz" />
+	<meta name="description" content="All about a badass full-stack web developer open to new opportunities" />
+	<meta name="keywords" content="Web Developer, Full-Stack, Hire, Ruby, Rails, Javascript, PostgreSQL, AWS, RESTful, MongoDB, Express, Angular, Node, MEAN, Python, Django, LAMP, PHP, MySQL, HTML, CSS, jQuery, developer" />
 	<link rel="stylesheet" href="style.css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-	<title>Portfolio by Chris Ulanowicz</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<title>Chris Ulanowicz</title>
 </head>
 <body>
-	<div id="wrapper">
+	<div id="container">
 		<header>
-			<img src="images/profile.jpg" alt="" />
+			<img src="images/profile.jpg" alt="profile" />
 			<h1>Chris Ulanowicz</h1>
 			<h2>Full-Stack Web Developer</h2>
 		</header>
 		<div id="main_content">
-			<h3>About Me:</h3>
-			<p>I'm currently going through an intensive coding bootcamp learning to become a full-stack web developer.  When I'm not coding or working on personal projects you can find me spending time with my family or at a drag strip.</p>
-			<h3>Follow along with me on my blog as I make my journey through Coding Dojo!</h3>
-			<form method="link" action="http://www.acodingodyssey.com"><input class="blog" type="submit" value="A Coding Odyssey"></form>
-		</div>
-		<div id="links">
-			<h3>You can also:</h3>
-			<ul>
-				<li><a class="github-button" href="https://github.com/chrisulanowicz" data-style="mega" aria-label="Follow @ntkme on GitHub">Follow @chrisulanowicz</a></li>
-				<li><a href="https://www.linkedin.com/in/chris-ulanowicz-449682a6" target="_blank"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" alt="View Chris Ulanowicz's profile on LinkedIn" width="160" height="25" border="0" /></a></li>
-				<li><a class="twitter-follow-button" href="https://twitter.com/ChrisUlanowicz" data-show-count="false">Follow @ChrisUlanowicz</a></li>
-				<script>// <![CDATA[
-				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-				// ]]></script>
-				<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-			</ul>
+			<div id="about">
+				<h2>About Me</h2>
+				<div class="project">
+					<p>Where do we start?  How about dedicated, hard-working, loyal, self-driven, honest, passionate, curious, and a <span class="bold">PROVEN</span> crazy fast-learner.  While that's a decent start, it doesn't even begin to fully encompass what you get with me.  I'm a developer with more ideas than I know what to do with and always strive to be the best at whatever it is I do.  No matter the job, experience or no experience, I always rise to the top.  I take pride in my ability to pick up new skills in lightning fast time, and then excel in them.</p>
+					<p>You're probably thinking to yourself, <span class="italic">'I've heard all that before'</span>.  While that may be true, you haven't met <span class="bold">ME</span> before!  Allow me the opportunity to prove myself and I guarantee you won't be disappointed.  In fact, I come with a life-time 100% full satisfaction guarantee!</p>
+				</div>
+			</div>
+			<div id="skills">
+				<h2>Technical Skills</h2>
+				<div class="project">
+					<table>
+						<tbody>
+							<tr>
+								<td>Languages</td>
+								<td>Ruby, JavaScript, Python, PHP, HTML5, CSS3</td>
+							</tr>
+							<tr>
+								<td>Front-End</td>
+								<td>HTML5, CSS3, Angular.js (1 && 2), jQuery, jQueryUI, AJAX</td>
+							</tr>
+							<tr>
+								<td>Frameworks</td>
+								<td>Rails, Express.js, Django, Laravel, CodeIgniter, Socket.io</td>
+							</tr>
+							<tr>
+								<td>Servers/Cloud</td>
+								<td>Apache, Node.js, Nginx, AWS</td>
+							</tr>
+							<tr>
+								<td>Databases/ORM</td>
+								<td>MySQL, PostgreSQL, SQLite3, MongoDB, Mongoose.js, Active Record</td>
+							</tr>
+							<tr>
+								<td>Methodology/Testing</td>
+								<td>OOP, MVC, RESTful Architecture, RSpec, Capybara</td>
+							</tr>
+							<tr>
+								<td>Tools</td>
+								<td>Chrome Dev Tools, Sublime Text, Balsamiq, Git, GitHub, phpMyAdmin, MySQL Workbench, Slack</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="projects">
+				<h2>Works/Projects</h2>
+				<div class="project">
+					<h3>A Coding Odyssey</h3>
+					<p>This is my blog that I started when I first decided to get into coding.  It chronicles my journey from being completely clueless about programming to becoming a badass.  A large part of my blog was going into detail about my time at Coding Dojo with near daily posts.  Blog is self-hosted using Wordpress for the CMS.</p>
+					<a href="http://www.acodingodyssey.com" target="_blank"><img src="images/acodingodyssey.png" alt="blog" /></a>	
+				</div>
+				<div class="project">
+					<h3>Cobo Grād</h3>
+					<p>A web application for comic book enthusiasts built around the idea of having an automated way to grade comic books. This is something that has been lacking for the longest time, and for good reason.  This site is taking something subjective and trying to make it objective.  Therefore this aspect is still being developed due to the complexity of the algorithms required to make it work - accurately.  The site does also feature a community discussion forum where users can create topics, post and comment.  The vision is to also incorporate several API's including eBay, Marvel, Facebook, and Google Maps as I integrate more features.</p>
+					<p>Cobo Grād is deployed through Amazon EC2 Web Services and built on the full MEAN stack utilizing MongoDB with Mongoose.js, Express.js, Angular.js, and Node.js.  It also uses the jQuery library as well as jQuery UI.</p>
+					<a href="http://52.34.207.191/#/" target="_blank"><img src="images/cobo_grad.png" alt="Cobo Grād" /></a>
+				</div>
+				<div class="project">
+					<h3>First Hack Dallas</h3>
+					<p>A local hackathon for beginner developers with a focus on a project that benefits the local community.  Being one of the co-founders I'm also part of the team that developed and currently developing the site with each of us focusing on specific sections.</p>
+					<p>Site is built with Ruby on Rails using PostgreSQL for the databse and Materialize as the CSS framework.  Site is deployed through Amazon EC2 Web Services.</p>
+					<a href="http://firsthackdallas.com/" target="_blank"><img src="images/firsthackdallas.png" alt="firstHackDallas" /></a>
+				</div>
+			</div>
+			<div id="education">
+				<h2>Education</h2>
+				<div class="project">
+					<h3>Coding Dojo - June 2016</h3>
+					<p>A fully immersive 14-week onsite coding bootcamp which teaches 3 full-stacks including LAMP, MEAN, and Ruby on Rails.  Putting roughly 1100 hours of coding into the program, I was able to graduate with a Triple Black Belt getting perfect scores on each stack's belt exam.  Getting multiple Black Belts is an accomplishment that only 5-10% of Coding Dojo students have achieved (and an even lower percentage with perfect scores).</p>
+					<p>Coding Dojo also incorporates daily group algorithm challenges where we spend at least an hour solving them on whiteboards.  Starting with basic array iterations we worked through arrays, linked lists, stacks, queues, binary search trees, hashes, sorts, and recursive functions.</p>
+					<a href="http://www.codingdojo.com" target="_blank"><img src="images/codingdojo.png" alt="codingdojo" /></a>
+				</div>
+			</div>
+			<div id="otherStuff">
+				<h2>Even more about me</h2>
+				<div class="project">	
+					<h3>United States Air Force</h3>
+					<p>Yup, back in 1998 I joined the Air Force and had the opportunity to work on the F-117 Stealth Nighthawk.  In case you're not familiar with that one, here's a picture of it:</p>
+					<a href="https://en.wikipedia.org/wiki/Lockheed_F-117_Nighthawk" target="_blank"><img src="images/F-117.png" alt="stealth" /></a>
+					<p>I was part of a team that did all the heavy maintenance on it.  By the way, I completed the initial training at the top of my class (and most previous classes).  Additionally I was assigned to the base emergency crash recovery team and was selected to be part of the base mobility unit.  And yes, I was Honorably Discharged.</p>
+				</div>
+				<div class="project">
+					<h3>E-commerce</h3>
+					<p>Not much to do with coding here, but in owning my own e-commerce business I've become a pro at using various web applications including eBay, Amazon, Craigslist, and OfferUp.  Having that user expertise is something that can come in handy when developing my own applications.</p>
+					<p>You might as well check out my eBay store as well and more importantly, take a look at my feedback!  If you need proof about my dedication to customer service, there it is.  For anyone that's ever sold on eBay, you know how extremely difficult it can be to maintain a PERFECT feedback rating, especially once you get into the 1000's.  While you're there, feel free to make a purchase, that way you can experience my service first hand.</p>
+					<a href="http://stores.ebay.com/luckypennytx/" target="_blank"><img src="images/ebay.png" alt="ebaystore" /></a>
+
+				</div>
+				<div class="project">
+					<h3>Polish</h3>
+					<p>As in I am and I speak.  Ok, so there may not be much demand for Polish speakers around the Dallas/Fort Worth area, but you never know when it might come in handy.</p>
+				</div>
+			</div>
+			<div id="links">
+				<div class="project">
+					<h3>Check me out on</h3>
+					<ul>
+						<li><a href="https://www.linkedin.com/in/chris-ulanowicz-449682a6" target="_blank"><img src="images/linkedin.png"></a></li>
+						<li><a href="https://github.com/chrisulanowicz" target="_blank"><img src="images/github.png"></a></li>
+						<li><a href="https://twitter.com/ChrisUlanowicz" target="_blank"><img src="images/twitter.png"></a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
