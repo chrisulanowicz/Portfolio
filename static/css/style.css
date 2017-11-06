@@ -49,7 +49,7 @@ span.italic {
 }
 /*=================== begin header styling ====================*/
 header {
-	background-image: url('images/detroit_custom.png');
+	background-image: url('../images/detroit_custom.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -65,19 +65,19 @@ section {
 	padding-bottom: 20px;
 }
 	#skills .parallax {
-		background-image: url("images/coding.jpg");
+		background-image: url("../images/coding.jpg");
 	}
 	#projects .parallax {
-		background-image: url("images/projects.jpg");
+		background-image: url("../images/projects.jpg");
 	}
 	#education .parallax {
-		background-image: url("images/education.png");
+		background-image: url("../images/education.png");
 	}
 	#otherStuff .parallax {
-		background-image: url("images/more.png");
+		background-image: url("../images/more.png");
 	}
 	#links .parallax {
-		background-image: url("images/connect.png");
+		background-image: url("../images/connect.png");
 		background-position: 50% 20%;
 		min-height: 300px;
 	}
@@ -126,16 +126,62 @@ table {
 		margin: 10px 0px 0px 50px;
 		display: inline-block;
 	}
-	#links img {
+	/*#links img {
 		width: 5em;
 		height: 5em;
-		background-color: white;
+		background: #E18A07;
+		font-size: 3em;
+		line-height: 5em;
+		color: white;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
 		border-radius: 50%;
 		filter: none;
+	}*/
+
+	#links i {
+		font-size: 3em;
+		color: white;
+		background: #ccc;
+		/*height: 3em;*/
+		/*width: 3em;*/
+		/*line-height: 3em;*/
+		padding: 5%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+	}
+
+	#links .fa-linkedin-square:hover {
+		background: blue;
+	}
+
+	#github-icon:hover {
+		background: lightgreen;
+	}
+
+	#twitter-icon:hover {
+		background: blue;
+	}
+
+	#youtube-icon:hover {
+		background: red;
+	}
+
+	#wordpress-icon:hover {
+		background: orange;
+	}
+
+	#resume-icon:hover {
+		background: brown;
+	}
+
+	#email-icon:hover {
+		background: darkred;
 	}
 /*================= begin footer styling ==================*/
 footer {
-	background-image: url('images/dallas.png');
+	background-image: url('../images/dallas.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
