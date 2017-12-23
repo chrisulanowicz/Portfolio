@@ -140,44 +140,44 @@ table {
 	}*/
 
 	#links i {
-		font-size: 3em;
+		font-size: 40px;
 		color: white;
 		background: #ccc;
-		/*height: 3em;*/
-		/*width: 3em;*/
-		/*line-height: 3em;*/
-		padding: 5%;
+		height: 60px;
+		width: 60px;
+		line-height: 60px;
+		padding: 10px;
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
 		border-radius: 50%;
 	}
 
 	#links .fa-linkedin-square:hover {
-		background: blue;
+		background: #007BB5;
 	}
 
-	#github-icon:hover {
-		background: lightgreen;
+	#links .fa-github:hover {
+		background: #6CC644;
 	}
 
-	#twitter-icon:hover {
-		background: blue;
+	#links .fa-twitter:hover {
+		background: #1DA1F2;
 	}
 
-	#youtube-icon:hover {
-		background: red;
+	#links .fa-youtube:hover {
+		background: #FF0000;
 	}
 
-	#wordpress-icon:hover {
-		background: orange;
+	#links .fa-wordpress:hover {
+		background: #D54E21;
 	}
 
-	#resume-icon:hover {
-		background: brown;
+	#links .fa-file-pdf-o:hover {
+		background: #FFC072;
 	}
 
-	#email-icon:hover {
-		background: darkred;
+	#links .fa-envelope:hover {
+		background: #D34836;
 	}
 /*================= begin footer styling ==================*/
 footer {
@@ -190,3 +190,74 @@ footer {
 footer img {
 		visibility: hidden;
 	}
+
+/*======================begin modal styling===================*/
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,.4);
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+#close-modal, #answer-modal {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#close-modal:hover, #close-modal:focus, #answer-modal:hover, #answer-modal:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+#Chester {
+	border: 4px solid orange;
+	margin: 40px auto;
+	/*display: block;*/
+	width: 30%;
+	padding: 25px;
+	border-radius: 8px;
+}
+
+#Chester a {
+	color: white;
+	font-weight: bolder;
+	/*margin-bottom: 10px;*/
+	font-size: 3em;
+	text-decoration: none;
+	background: blue;
+	padding: 14px 34px;
+	border-radius: 8px;
+}
+
+#Chester a:hover {
+	background: green;
+}
+
+#Chester h3 {
+
+}
+
+
+
+
+
